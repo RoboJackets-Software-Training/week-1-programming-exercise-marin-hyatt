@@ -90,7 +90,7 @@ int main() {
     std::cout << "}" << std::endl;
 
     //print y
-    std::cout << "y: {";
+    std::cout << "{";
     for (double i = 0; i < y.size(); i++) {
       std::cout << y[i];
       if (i < y.size() - 1) {
